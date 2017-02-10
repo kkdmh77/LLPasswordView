@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193325351E4D569A00E3D500 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 193325341E4D569A00E3D500 /* main.m */; };
+		193325381E4D569A00E3D500 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 193325371E4D569A00E3D500 /* AppDelegate.m */; };
+		1933253B1E4D569A00E3D500 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1933253A1E4D569A00E3D500 /* ViewController.m */; };
+		1933253E1E4D569A00E3D500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1933253C1E4D569A00E3D500 /* Main.storyboard */; };
+		193325401E4D569A00E3D500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1933253F1E4D569A00E3D500 /* Assets.xcassets */; };
+		193325431E4D569A00E3D500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193325411E4D569A00E3D500 /* LaunchScreen.storyboard */; };
+		1933254D1E4D56AE00E3D500 /* LLPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1933254C1E4D56AE00E3D500 /* LLPasswordView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		193325301E4D569A00E3D500 /* LLPasswordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLPasswordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		193325341E4D569A00E3D500 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		193325361E4D569A00E3D500 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		193325371E4D569A00E3D500 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		193325391E4D569A00E3D500 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1933253A1E4D569A00E3D500 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1933253D1E4D569A00E3D500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1933253F1E4D569A00E3D500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		193325421E4D569A00E3D500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		193325441E4D569A00E3D500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1933254B1E4D56AE00E3D500 /* LLPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPasswordView.h; sourceTree = "<group>"; };
+		1933254C1E4D56AE00E3D500 /* LLPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPasswordView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1933252D1E4D569A00E3D500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193325271E4D569A00E3D500 = {
+			isa = PBXGroup;
+			children = (
+				193325321E4D569A00E3D500 /* LLPasswordView */,
+				193325311E4D569A00E3D500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		193325311E4D569A00E3D500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				193325301E4D569A00E3D500 /* LLPasswordView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		193325321E4D569A00E3D500 /* LLPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				1933254A1E4D56AE00E3D500 /* Classes */,
+				193325361E4D569A00E3D500 /* AppDelegate.h */,
+				193325371E4D569A00E3D500 /* AppDelegate.m */,
+				193325391E4D569A00E3D500 /* ViewController.h */,
+				1933253A1E4D569A00E3D500 /* ViewController.m */,
+				1933253C1E4D569A00E3D500 /* Main.storyboard */,
+				1933253F1E4D569A00E3D500 /* Assets.xcassets */,
+				193325411E4D569A00E3D500 /* LaunchScreen.storyboard */,
+				193325441E4D569A00E3D500 /* Info.plist */,
+				193325331E4D569A00E3D500 /* Supporting Files */,
+			);
+			path = LLPasswordView;
+			sourceTree = "<group>";
+		};
+		193325331E4D569A00E3D500 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				193325341E4D569A00E3D500 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1933254A1E4D56AE00E3D500 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1933254B1E4D56AE00E3D500 /* LLPasswordView.h */,
+				1933254C1E4D56AE00E3D500 /* LLPasswordView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1933252F1E4D569A00E3D500 /* LLPasswordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193325471E4D569A00E3D500 /* Build configuration list for PBXNativeTarget "LLPasswordView" */;
+			buildPhases = (
+				1933252C1E4D569A00E3D500 /* Sources */,
+				1933252D1E4D569A00E3D500 /* Frameworks */,
+				1933252E1E4D569A00E3D500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLPasswordView;
+			productName = LLPasswordView;
+			productReference = 193325301E4D569A00E3D500 /* LLPasswordView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		193325281E4D569A00E3D500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lianlian;
+				TargetAttributes = {
+					1933252F1E4D569A00E3D500 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A6EAE6DT3R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1933252B1E4D569A00E3D500 /* Build configuration list for PBXProject "LLPasswordView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 193325271E4D569A00E3D500;
+			productRefGroup = 193325311E4D569A00E3D500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1933252F1E4D569A00E3D500 /* LLPasswordView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1933252E1E4D569A00E3D500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193325431E4D569A00E3D500 /* LaunchScreen.storyboard in Resources */,
+				193325401E4D569A00E3D500 /* Assets.xcassets in Resources */,
+				1933253E1E4D569A00E3D500 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1933252C1E4D569A00E3D500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1933253B1E4D569A00E3D500 /* ViewController.m in Sources */,
+				1933254D1E4D56AE00E3D500 /* LLPasswordView.m in Sources */,
+				193325381E4D569A00E3D500 /* AppDelegate.m in Sources */,
+				193325351E4D569A00E3D500 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1933253C1E4D569A00E3D500 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1933253D1E4D569A00E3D500 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		193325411E4D569A00E3D500 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193325421E4D569A00E3D500 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		193325451E4D569A00E3D500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		193325461E4D569A00E3D500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		193325481E4D569A00E3D500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6EAE6DT3R;
+				INFOPLIST_FILE = LLPasswordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianlian.LLPasswordView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		193325491E4D569A00E3D500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6EAE6DT3R;
+				INFOPLIST_FILE = LLPasswordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianlian.LLPasswordView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1933252B1E4D569A00E3D500 /* Build configuration list for PBXProject "LLPasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193325451E4D569A00E3D500 /* Debug */,
+				193325461E4D569A00E3D500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193325471E4D569A00E3D500 /* Build configuration list for PBXNativeTarget "LLPasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193325481E4D569A00E3D500 /* Debug */,
+				193325491E4D569A00E3D500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 193325281E4D569A00E3D500 /* Project object */;
+}
